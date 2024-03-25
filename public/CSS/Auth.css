@@ -1,0 +1,225 @@
+.bg-blue {
+    background-color: rgb(130, 179, 232);
+}
+.bg-green {
+    background: #3da269;
+}
+.text-pink {
+    color: rgb(218, 85, 107);
+}
+
+body {
+    background-image: linear-gradient(30deg, #5a7334, #f2f2f2, #102601);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    font-family: "Figtree", sans-serif;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.tab-1 {
+    border: 3px solid rgb(16, 11, 45);
+}
+.br-6 {
+    border-radius: 6px;
+}
+
+.login-box {
+    position: relative;
+    top: 20%;
+
+    width: 500px;
+    height: 450px;
+    background-color: #ffffffab;
+    padding: 10px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.393);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.33);
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.514);
+}
+.lb-header {
+    position: relative;
+    color: #00415d;
+    margin: 5px 5px 10px 5px;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    height: 28px;
+}
+.lb-header a {
+    margin: 0 25px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #a7bf50;
+    font-weight: bolder;
+    font-size: 20px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.lb-header .active {
+    color: #102601;
+    font-size: 18px;
+}
+@media (max-width: 991.98px) {
+    .login-box {
+        position: fixed;
+
+        bottom: auto;
+        left: -15%;
+        right: 40%;
+    }
+}
+
+/* .social-login{
+    position:relative;
+    float: left;
+    width: 100%;
+    height:auto;
+    padding: 10px 0 15px 0;
+    border-bottom: 1px solid #eee;
+  }
+  .social-login a{
+    position:relative;
+    margin: auto;
+    width:calc(40% - 8px);
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0.05);
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0 3%;
+    text-align:center;
+  }
+  .social-login a i{
+    position: relative;
+    float: left;
+    width: 20px;
+    top: 2px;
+  }
+  .social-login a:first-child{
+    background-color: #49639F;
+  }
+  .social-login a:last-child{
+    background-color: #DF4A32;
+  } */
+.email-login,
+.email-signup {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.u-form-group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.name-input {
+    width: calc(50% - 22px);
+    height: 45px;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    border-radius: 2px;
+    color: #737fe8;
+    font-size: 0.8rem;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.u-form-group input[type="email"],
+.u-form-group input[type="password"] {
+    width: calc(50% - 22px);
+    height: 45px;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    border-radius: 2px;
+    color: #737fe8;
+    font-size: 0.8rem;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.u-form-group input:focus {
+    border-color: #358efb;
+}
+.u-form-group button {
+    width: 50%;
+    background-color: #5a7334;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 14px 0;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.forgot-password {
+    width: 50%;
+    text-align: left;
+    text-decoration: none;
+    color: #a7bf50;
+    font-size: 1rem;
+    transition-duration: 0.4s;
+}
+.forgot-password:hover {
+    color: #ff0a8d;
+}
+.bg-nav {
+    background-image: url("");
+}
+
+/* tungdinh---------------------------- */
+.list-images-tungdinh {
+    width: 50%;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.hidden-tungdinh {
+    display: none;
+}
+
+.box-image-tungdinh {
+    width: 100px;
+    height: 108px;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+}
+
+.box-image-tungdinh img {
+    width: 100px;
+    height: 100px;
+}
+
+.wrap-btn-delete-tungdinh {
+    position: absolute;
+    top: -8px;
+    right: 0;
+    height: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+.btn-delete-image-tungdinh {
+    cursor: pointer;
+}
